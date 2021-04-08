@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>登入與註冊</title>
+    <link rel="stylesheet" type="text/css" href="registerstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <div id="header">
+    <ul >
+
+  <li><input type="search" id="site-search" name="q"
+    aria-label="Search through site content">
+<button>Search</button></li>
+  
+</ul>
+</div>
+<div id="sidebarleft">
+    </div>
+<div id="sidebarright"> 
+</div>
+<div id="contents">  
+  
+  <div class="login_page">
+    <div id="container1">
+      <div class="login">  
+        <h3>登入 Login</h3>
+        <form >
+          <input type="text" id="username" name="username" placeholder="帳號" required>
+          <div class="tab"></div>
+          <input type="text" id="password" name="password" placeholder="密碼" required>
+          <div class="tab"></div>
+          <input type="submit" value="登入" class="submit" onclick="location.href='https://codepen.io/rosewang0303/full/OQbLBv/'">
+        </form>  
+        <p onclick="show_hide()">註冊帳號</p>      
+      </div><!-- login end-->
+    </div><!-- container1 end-->
+  </div><!-- login_page end-->
+</div>
+  <div class="signup_page">
+    <div id="container2">
+
+      <div class="signup">       
+        <h3>註冊 Sign Up</h3>
+
+        <form >
+          <input type="text" id="fullname" name="fullname" placeholder="使用者全名" required>
+          <div class="tab"></div>
+          <input type="text" id="username2" name="username" placeholder="帳號" required>
+          <div class="tab"></div>
+          <input type="text" id="password2" name="password" placeholder="密碼" required>
+          <div class="tab"></div>
+          <input type="text" id="comfirm_password" name="comfirm_password" placeholder="確認密碼" required>
+          <div class="tab"></div>            
+          <input type="submit" value="註冊" class="submit">
+        </form>  
+
+        <p onclick="show_hide()">登入帳號</p>
+        
+      </div><!-- signup end-->
+    </div><!-- container2 end-->
+  </div><!-- signup_page end--> 
+
+  <!-------javascript----->
+  <script src="register.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  </body>
+</html> 
