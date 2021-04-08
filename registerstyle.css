@@ -1,0 +1,132 @@
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Microsoft JhengHei;
+ font-size: 1vw;
+}
+#header{
+    width: 100%;
+  position: fixed;
+  height: 5em;
+  top: 0;
+}
+/*#header a{
+    text-decoration:none;
+    color:black;
+}*/
+#sidebarleft{
+/*margin-top:4em;*/
+float: left;
+width: 30em;
+padding-top: 10vh;
+}
+#sidebarright{
+    /*margin-top:4em;*/
+    float: right;
+    width: 30em;
+    padding-top: 10vh;
+    }
+#contents{
+    margin-right: 30em;
+    margin-left:30em;
+    padding-top: 10vh;
+    position: fixed;
+ 
+}
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#404040;
+  padding:0.3em;
+  /*border-bottom:0.2em solid black;*/
+  font-size:1.5em;
+}
+
+#header li {
+  display: inline;
+  /*background-color:white;
+  color:white;*/
+  padding:0.1em 0.4em 0.1em 0.4em;
+  text-decoration:none;
+}
+  
+  #username, #password, h3, #fullname, #comfirm_password,#username2, #password2{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    color: #2b6a6c;
+  }
+  
+  p{
+    margin: 20px;
+    color: #a3a2a3;
+  }
+  
+  p{
+    color: black;
+  }
+  
+  #container1, #container2{
+    margin: 50px;
+    padding: 10px;
+    width: 30em;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 10px solid #2b6a6c;
+    box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+    text-align:center;
+    /*定位對齊*/
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    //text-align:center;  
+  }
+  
+  .system_name{
+    /*定位對齊*/
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    text-align:center; 
+  }
+  .submit{
+    color: white;  
+    background: #2b6a6c;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+  }
+  
+  .submit:hover{
+    background: #2b6a6c;
+  }
+  
+  #container2{
+    visibility: hidden;   /*剛開始消失*/
+    height: 350px;
+  }
+  
+  
+  #copyright{
+    text-align: center;
+    color: #a3a2a3;
+    margin: -200px 0px 0px 0px;
+    font-size: 14px;
+  }
+  
+  input{
+    padding: 5px;
+    border: none; 
+    border:solid 1px #ccc;
+    border-radius: 5px;
+  }
